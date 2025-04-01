@@ -15,4 +15,4 @@ white-remover input.png output.webp
 ```
 
 ## So what does it actually do?
-It opens the image, checks from the bottom, per line, if any of the pixels are full white. It keeps doing that until it founds a line without any white, crops the image and saves it as webp.
+It opens the image, checks from the bottom, per line, if any of the pixels are full white. It keeps doing that until it found a line without any white. Then it just crops the image and saves it as webp.
