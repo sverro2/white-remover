@@ -4,7 +4,7 @@ I needed a simple tool for removing whitespace from the bottom of images... and 
 Very specific requirements. Probably noone else will need this, but if you do, or need to do domething simular, feel free to use this tool or reuse the code!
 
 ## How to use
-Compile the binary or run (if you have Rust installed):
+Compile the binary or install (if you have Rust installed):
 ```
 cargo install --git https://github.com/sverro2/white-remover.git
 ```
