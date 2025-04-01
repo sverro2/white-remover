@@ -1,5 +1,5 @@
 ## Summary
-I needed a simple tool for removing whitespace from the bottom of images... and converting them to webp... with high performance... no error handling required.. etc.
+I needed a simple tool for removing whitespace from the bottom of images... and converting them to webp (lossy, 60%)... with high performance... no error handling... required.. etc.
 
 Very specific requirements. Probably noone else will need this, but if you do, or need to do domething simular, feel free to use this tool or reuse the code!
 
@@ -15,4 +15,4 @@ white-remover input.png output.webp
 ```
 
 ## So what does it actually do?
-It opens the image, checks from the bottom, per line, if any of the pixels are full white. It keeps doing that until it found a line without any white. Then it just crops the image and saves it as webp.
+It opens the image, checks from the bottom, per line, if any of the pixels are full white. It keeps doing that until it found a line without any white. Then it just crops the image and saves it as webp with a quality setting of 60.
